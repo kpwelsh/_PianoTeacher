@@ -1,0 +1,5 @@
+{
+  "name": "demo",
+  "main": "index_debug.html",
+  "node-remote": "http://localhost/*"
+}

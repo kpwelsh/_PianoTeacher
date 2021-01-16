@@ -1,0 +1,33 @@
+{
+  "name": "pianoteacher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node config/debug.js",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "@hot-loader/react-dom": "^16.11.0",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.5",
+    "css-loader": "^3.2.0",
+    "react-hot-loader": "^4.12.18",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.7.0",
+    "abcjs": "^5.12.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  }
+}
